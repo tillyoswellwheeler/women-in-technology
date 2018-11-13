@@ -1,0 +1,45 @@
+/* CSS resets */
+
+* {
+/* Fix the box model */
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-text-size-adjust: 100%;
+/* Remove margin/padding from
+all elements */
+margin: 0;
+padding: 0;
+}
+
+article, aside, footer, header,
+main, nav, section {
+/* Older browsers who don’t
+respect html5, will not
+recognise these elements and
+make them inline. This fixes
+that. */
+display: block;
+}
+
+img {
+/* Make your images flexible */
+max-width: 100%;
+height: auto;
+/* Remove the annoying
+ghost margin you get
+below an image */
+display: block;
+}
+
+button, fieldset, input, textarea,
+select, fieldset {
+/* These are all form elements
+and browsers give them many
+out-of-the-box styles */
+background: none;
+border: none;
+border-radius: 0px;
+outline: 0;
+-webkit-appearance: none;
+}
