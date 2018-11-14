@@ -2,27 +2,37 @@
   <html lang="en-GB">
    <head>
      <title>Katherine Johnson</title>
-     <link rel=”stylesheet” href=”css/reset.css”>
-     <link href="css/stylesheet.css" rel="stylesheet">
-     <meta charset="utf-8"/>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Site Title</title>
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/screen.css">
    </head>
 
    <body>
-     <nav class="burger-menu">
-       <div class="burger-line"></div>
-       <div class="burger-line"></div>
-       <div class="burger-line"></div>
-     </nav>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <a class="navbar-brand" href="#">
+         <img src="images/women-in-technology-logo.png" width="30" height="30" alt="Logo.">
+       </a>
 
-     <nav class="main-nav">
-      <ul>
-        <li><a href="grace-hopper-bio.html">Grace Hopper</a></li>
-        <li><a href="ada-lovelace-bio.html">Ada Lovelace</a></li>
-        <li><a class="home-button" href="index.html">Logo/Home</a></li>
-        <li><a href="katherine-johnson-bio.html">Katherine Johnson</a></li>
-        <li><a href="the-future-of-tech.html">The Future</a></li>
-      </ul>
-    </nav>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="ada-lovelace-bio.html">Ada Lovelace</a>
+             <a class="nav-link" href="grace-hopper-bio.html">Grace Hopper</a>
+             <a class="nav-link" href="katherine-johnson-bio.html">Katherine Johnson</a>
+             <a class="nav-link" href="the-future-of-tech.html">You</a>
+           </li>
+         </ul>
+         <form class="form-inline my-2 my-lg-0">
+           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+         </form>
+       </div>
+     </nav>
 
     <header>
       <h1>Katherine Johnson</h1>
