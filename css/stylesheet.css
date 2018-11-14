@@ -1,0 +1,8 @@
+/* CSS Stylesheet */
+
+/*Header style*/
+ #header-box {
+  width: 200px;
+     height: 100px;
+     background: red;
+}
