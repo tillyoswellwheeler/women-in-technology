@@ -2,22 +2,32 @@
 
 /* Typography Styling */
 
+body {
+  font-size: 120%;
+  color: #36286a;
+}
+
 h1 {
  font-size: 66px;
  text-decoration: none;
  color: #2590b8;
 }
 
-p {
-  font-size: 120%;
-  color: #36286a;
-}
+
 
 /*Header style*/
  #header-box {
   width: 200px;
      height: 100px;
      background: red;
+}
+
+.navbar-dark {
+  background-color: rgba(255, 140, 167, 0.6);
+}
+
+.jumbotron {
+  padding-top:200px;
 }
 
 /* Image styles */
