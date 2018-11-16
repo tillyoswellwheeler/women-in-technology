@@ -1,5 +1,10 @@
 /* CSS Stylesheet */
 
+main {
+  margin-top: 100px;
+  position: relative;
+}
+
 /* Typography Styling */
 
 body {
@@ -27,8 +32,18 @@ h1 {
 }
 
 .jumbotron {
-  padding-top:200px;
+  margin: 110px 30px;
+  padding: 70px 5px 40px 5px;
+  background-color: rgba(37,144, 184, 0.2)
+
 }
+
+@media screen and (min-width: 760px) {
+  .jumbotron {
+  /* padding-top:200px; */
+  margin: 200px 600px 100px 0px;
+   }
+  }
 
 /* Image styles */
 
