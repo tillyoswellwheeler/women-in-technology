@@ -18,7 +18,7 @@ h1 {
  color: #2590b8;
 }
 
-
+h2
 
 /*Header style*/
  #header-box {
@@ -39,25 +39,20 @@ h1 {
 }
 
 li {
-  background: url('/images/assets/bullets.png') no-repeat left top;
+  background: url("../images/assets/bullets.png") no-repeat left top;
   height: 54px;
   padding-left: 44px;
   padding-top: 3px;
+  list-style: none;
 }
 
 @media screen and (min-width: 760px) {
   .jumbotron {
   /* padding-top:200px; */
   margin: 200px 600px 100px 0px;
+  padding: 10px -200px 30px 50px;
    }
 
-   .short-bio-list {
-     position: absolute;
-     /* float: right; */
-     /* margin-right: 20px; */
-     /* margin-left: 0; */
-   }
-  }
 
 /* Image styles */
 
