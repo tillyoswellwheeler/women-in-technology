@@ -38,10 +38,24 @@ h1 {
 
 }
 
+li {
+  background: url('/images/assets/bullets.png') no-repeat left top;
+  height: 54px;
+  padding-left: 44px;
+  padding-top: 3px;
+}
+
 @media screen and (min-width: 760px) {
   .jumbotron {
   /* padding-top:200px; */
   margin: 200px 600px 100px 0px;
+   }
+
+   .short-bio-list {
+     position: absolute;
+     /* float: right; */
+     /* margin-right: 20px; */
+     /* margin-left: 0; */
    }
   }
 
