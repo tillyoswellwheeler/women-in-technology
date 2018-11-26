@@ -2,7 +2,7 @@
 
 main {
   margin-top: 100px;
-  position: relative;
+  /* position: relative; */
 }
 
 /* Typography Styling */
@@ -43,15 +43,30 @@ li {
   height: 54px;
   padding-left: 44px;
   padding-top: 3px;
+}
+
+#ada-b
+
+}
+
+ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 760px) {
   .jumbotron {
   /* padding-top:200px; */
-  margin: 200px 600px 100px 0px;
-  padding: 10px -200px 30px 50px;
-   }
+  margin: 200px 300px 100px 0px;
+  padding: 10px 10px 30px 50px;
+ }
+
+ .short-bio-list {
+   border: 2px solid red;
+
+ }
+}
 
 
 /* Image styles */
